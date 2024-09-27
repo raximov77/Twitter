@@ -3,7 +3,7 @@ import Logo from "../assets/images/logo.svg";
 import LoginInput from '../components/LoginInput';
 import Button from '../components/Button';
 import { Link } from 'react-router-dom';
-import Loading from "../assets/images/Loading.png"
+import Loading from "../assets/images/loading.png"
 import toast, { Toaster } from 'react-hot-toast';
 
 function Register() {
