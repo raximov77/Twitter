@@ -4,7 +4,7 @@ import LoginInput from '../components/LoginInput';
 import Button from '../components/Button';
 import { Link } from 'react-router-dom';
 import { Context } from '../context/AuthContext';
-import Loading from "../assets/images/Loading.png"
+import Loading from "../assets/images/loading.png"
 import toast, { Toaster } from 'react-hot-toast';
 function Login() {
   const { setToken } = useContext(Context);
